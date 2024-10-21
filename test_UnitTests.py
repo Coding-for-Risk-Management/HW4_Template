@@ -5,9 +5,12 @@ import statsmodels.formula.api as smf
 
 import HW4_Functions_File
 
+# WhoAmI
+def test_WhoAmI():
+    assert HW4_Functions_File.WhoAmI() != ''
+    
 # qSLR1
 def test_MyLM():
-    # Unit Tests
     hardcoded_iris = {
       'sepal_length_cm': [5.1, 4.9, 4.7, 4.6, 5.0],
       'petal_length_cm': [1.4, 1.4, 1.3, 1.5, 1.4]
