@@ -6,9 +6,11 @@ import statsmodels.formula.api as smf
 from sklearn.datasets import load_iris
 from rdatasets import data
 
+import HW4_Functions_File as python_hw4
+
 import WhoAmI_File
 def test_WhoAmI():
-    assert WhoAmI_File.WhoAmI() != ''
+    assert python_hw4.WhoAmI() != ''
 
 # qSLR1
 def test_MyLM():
