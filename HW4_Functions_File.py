@@ -6,7 +6,7 @@ import statsmodels.formula.api as smf
 
 # Who Am I
 def WhoAmI():
-    return 'asdf'
+    return ''
 
 # qSLR1
 def MyLM(formula, data):
